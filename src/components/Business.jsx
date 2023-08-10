@@ -16,7 +16,7 @@ const FeatureCard = ({ icon, id, title, content }) => (
 );
 
 const Business = () => (
-  <section className="font-poppins mt-32 flex flex-col sm:flex-row">
+  <section id="features" className="font-poppins mt-32 flex flex-col sm:flex-row">
     <div className="space-y-10 text-center sm:text-left sm:w-2/4">
       <h1 className="font-poppins text-4xl md:text-5xl text-white">
         You do the business, <br className="hidden sm:block" /> we'll handle the

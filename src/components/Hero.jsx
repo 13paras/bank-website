@@ -3,7 +3,7 @@ import index from "../assets/index";
 import GetStarted from "./GetStarted";
 
 const Hero = () => (
-  <section className="mt-40 flex md:flex-row flex-col font-poppins">
+  <section id="home" className="mt-40 flex md:flex-row flex-col font-poppins">
     <div className="relative">
       <div className="text-gray-400 flex items-center px-4 pl-2 rounded-lg bg-discount-gradient  w-max mx-auto md:mx-0">
         <img className="" src={index.discount} alt="" />

@@ -3,7 +3,7 @@ import index from '../assets/index'
 
 const Billing = () => {
   return (
-    <section className='mt-20 flex flex-col justify-center items-center md:flex-row'>
+    <section id='product' className='mt-20 flex flex-col justify-center items-center md:flex-row'>
       <div className='md:w-2/4 w-[75%]'>
         <img 
         className=' md:w-[80%] md:h-[80%]'

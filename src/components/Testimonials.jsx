@@ -4,7 +4,7 @@ import Feedback from './Feedback';
 import index from '../assets/index'
 
 const Testimonials = () => (
-    <div className='mt-32'>
+    <div id='clients' className='mt-32'>
       <div className='flex justify-center md:space-x-36 space-x-20 items-center font-poppins w-[80%] mx-auto md:w-full md:mx-0'>
           <h1 className='text-2xl md:text-3xl font-semibold text-white'>What people are <br className="hidden md:block" /> saying about us</h1>
           <p className='font-normal text-dimWhite'>Everything you need to accept card payments <br className="hidden md:block" /> and grow your business anywhere on the planet</p>
